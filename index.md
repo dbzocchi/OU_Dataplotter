@@ -1,6 +1,6 @@
 ## How to use Dataplotter
 
-In Chrome or Edge(2019 Edition based on Chromium)
+In Chrome or Microsoft Edge (2019 Edition based on Chromium)
 
 ```markdown
 1. Navigate to https://dbzocchi.github.io/OU_Plotters/Dataplotter/

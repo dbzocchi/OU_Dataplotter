@@ -3,7 +3,7 @@
 In Chrome or Microsoft Edge (2019 Edition based on Chromium)
 
 ```markdown
-1. Navigate to https://dbzocchi.github.io/OU_Plotters/Dataplotter/
+1. Navigate to [https://dbzocchi.github.io/OU_Plotters/Dataplotter/](https://dbzocchi.github.io/OU_Plotters/Dataplotter/ "OU Dataplotter")
 2. Click ... on the browser
 3. Click More Tools > Create Shortcut
 4. Check Open as window
@@ -12,10 +12,10 @@ In Chrome or Microsoft Edge (2019 Edition based on Chromium)
 
 ## How to use Graphplotter
 
-In Chrome or Edge(2019 Edition based on Chromium)
+In Chrome or Edge (2019 Edition based on Chromium)
 
 ```markdown
-1. Navigate to https://dbzocchi.github.io/OU_Plotters/Graphplotter/
+1. Navigate to [https://dbzocchi.github.io/OU_Plotters/Graphplotter/](https://dbzocchi.github.io/OU_Plotters/Graphplotter/ "OU Graphplotter")
 2. Click ... on the browser
 3. Click More Tools > Create Shortcut
 4. Check Open as window

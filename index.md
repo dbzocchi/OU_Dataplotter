@@ -24,4 +24,5 @@ In Chrome or Edge(2019 Edition based on Chromium)
 
 ### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+If you are have trouble for whatever reason, let me know the problem here
+https://github.com/dbzocchi/OU_Plotters/issues

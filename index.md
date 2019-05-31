@@ -1,36 +1,26 @@
-## Welcome to GitHub Pages
+## How to use Dataplotter
 
-You can use the [editor on GitHub](https://github.com/dbzocchi/OU_Plotters/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+In Chrome or Edge(2019 Edition based on Chromium)
 
 ```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+1. Navigate to https://dbzocchi.github.io/OU_Plotters/Dataplotter/
+2. Click ... on the browser
+3. Click More Tools > Create Shortcut
+4. Check Open as window
+5. Click Create
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## How to use Graphplotter
 
-### Jekyll Themes
+In Chrome or Edge(2019 Edition based on Chromium)
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/dbzocchi/OU_Plotters/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+```markdown
+1. Navigate to https://dbzocchi.github.io/OU_Plotters/Graphplotter/
+2. Click ... on the browser
+3. Click More Tools > Create Shortcut
+4. Check Open as window
+5. Click Create
+```
 
 ### Support or Contact
 

@@ -1,0 +1,621 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+	<title>DataPlotter help</title>
+	<link href="css/site.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+<!--
+body {
+	margin:0;
+	font-family:Verdana,Arial;
+	font-size:10pt;
+}
+
+.logo {
+	margin: 1%;
+}
+
+.title {
+	font-size:14pt;
+	margin: 4%;
+	color: #003366;
+}
+
+.help {
+	font-size:12pt;
+	margin: 5%;
+	width: 90%;
+}
+
+.clearer {
+	clear:both;
+}
+
+a:visited,
+a:link {
+	text-decoration:none;
+	font-size: 1em;
+	margin-top: 20pt;
+	margin-right: 0pt;
+	margin-bottom: 0pt;
+	margin-left: 0pt;
+	font-weight: normal;
+	color: #003366;
+}
+
+a:hover {
+	text-decoration:underline;
+}
+
+-->
+
+</style>
+</head>
+
+<body>
+    <div class="clearer"></div>
+    <div class="logo">
+        <img src="oulogo.gif" alt="OU logo" title="OU logo"/>
+    </div>
+	<div class="title">Dataplotter Help menu</div>
+	<div class="help">
+		<h3><a name="Contents" id="Contents"></a>Contents</h3>
+		<ol>
+			<li><a href="#Size">Changing the size of Dataplotter</a></li>
+		  	<li><a href="#KeyboardControl">Keyboard  control</a></li>
+			<li><a href="#ShortcutKeys">Shortcut keys</a></li>
+			<li><a href="#ChoosingDataset">Choosing a dataset</a></li>
+			<li><a href="#ChangingUnits">Changing an axis label</a></li>
+		  	<li><a href="#New">Creating a new dataset</a></li>
+			<li><a href="#Copying">Copying a dataset to the clipboard</a></li>
+			<li><a href="#Pasting">Pasting to a dataset from the clipboard</a></li>
+			<li><a href="#Deleting">Deleting a dataset</a></li>
+			<li><a href="#DeleteAll">Deleting all datasets</a></li>
+			<li><a href="#DotPlot">Dotplots</a></li>
+			<li><a href="#BoxPlot">Boxplots</a></li>
+			<li><a href="#Histogram">Histograms</a></li>
+			<li><a href="#Summaries">Statistical summaries</a></li>
+			<li><a href="#Scatterplot">Scatterplots</a></li>
+			<li><a href="#View">Changing the viewable area of a scatterplot</a></li>
+			<li><a href="#PlottingPoints">Plotting and deleting scatterplot points</a></li>
+			<li><a href="#Properties">Options</a></li>
+		</ol>
+	</div>
+	
+    <div class="help">
+		<h3><a name="Size" id="Size">1. Changing  the size of Dataplotter</a></h3>
+		<p>
+            To vary the size of Dataplotter, first click  on the webpage outside Dataplotter or press F5 to reload Dataplotter. 
+            Then hold  down the Ctrl key and either rotate the mouse wheel or press the + or - keys.  This zooms the entire webpage 
+            in and out. To reset the page to its default  size, click on the webpage outside Dataplotter or reload Dataplotter by 
+            pressing the F5 key, and then press Ctrl+0 (that is, press the Ctrl and 0 keys  together).
+      	If necessary, use the vertical and horizontal scroll bars to move around the   enlarged webpage.</p>
+	  	<a href="#Contents">Back to Contents</a>
+	</div>
+
+	<div class="help">
+		<h3><a name="KeyboardControl" id="KeyboardControl">2. Keyboard control</a></h3>
+		<p>
+        	All of the Dataplotter components can be controlled by using the keyboard as an alternative to the mouse. To begin, 
+            you have to select Dataplotter, which you can do by clicking inside it.  An alternative, which works in some browsers, 
+            is to repeatedly press the Tab key (this is called <em>tabbing</em>) until a component of Dataplotter is highlighted by a 
+            border around it.   	  </p>
+<p>
+			A border like this around a Dataplotter component indicates that the component has <em>keyboard focus</em> (or <em>focus</em> for short). 
+            When a component has focus, you can control it with the keyboard.  You can give a component focus in the following ways 
+            (some methods work for only some components).      	</p>
+<ul>
+			<li>Click  on the component (e.g. an input box). </li>
+	        <li>Use the shortcut keys given in the next section.</li>
+          	<li>
+            	Tab through the components (repeatedly press the Tab key).  Each time you press the Tab key the focus is transferred 
+                to the next component in order. You can tab backwards by pressing the Tab key while holding down the Shift key 
+                (Shift+Tab). 
+            </li>
+      	</ul>
+		<p>
+        	When a component has focus, keyboard commands are available. 
+      </p>
+		<ul>
+          	<li>
+            	When one of the tabs (e.g. Dotplot, Boxplot) has focus, pressing the Space key activates that tab.            </li>
+          	<li>
+            	When a button has focus, pressing the Space key presses the button.            </li>
+          	<li>
+            	When an input box has focus, you can type characters into it. You must press the Enter key (while the box has focus) 
+                or change focus to another component for the change to take effect.            </li>
+          	<li>
+            	When a drop-down selector for choosing a dataset has focus, pressing the Space bar opens the drop-down list. Use the 
+                Up and Down arrow keys to navigate the list and then press the Enter key to choose the highlighted option. The Home 
+                and End keys take you to the first and last datasets in the list.            </li>
+        </ul>
+	    <p>To reload Dataplotter, make sure that the focus is  on the web page and press the F5 key.</p>
+      <a href="#Contents">Back to Contents</a>
+	</div>
+
+    <div class="help">
+		<h3><a name="ShortcutKeys" id="ShortcutKeys">3. Shortcut keys</a></h3>
+		<p>
+			Some components have shortcut keys which, when pressed with the Ctrl and Alt keys held down, allow you to shift the focus 
+            directly to these components.  To use the shortcut keys, you must have the focus on a Graphplotter component.
+	  </p>
+        <p>
+	        Some components have a letter or number underlined to remind you of their shortcut keys. You can choose to display shortcut 
+            reminders for some other components &ndash; Section 18 tells you how to do this.
+        </p>
+	  <table border="1" cellspacing="0" cellpadding="4">
+  <tr>
+				<td>Ctrl+Alt+A</td>
+			  	<td>Selects the Datasets tab (to display the data columns).</td>
+			</tr>
+			<tr>
+				<td>Ctrl+Alt+O</td>
+				<td>Selects the Options tab.</td>
+			</tr>
+			<tr>
+            	<td>Ctrl+Alt+D</td>
+                <td>Selects the Dotplot tab (to display the dot plot graphs).</td>
+            </tr>
+			<tr>
+                <td>Ctrl+Alt+B</td>
+                <td>Selects the Boxplot tab (to display the boxplot graphs).</td>
+            </tr>
+			<tr>
+                <td>Ctrl+Alt+I</td>
+                <td>Selects the Histogram tab (to display this histogram graphs).</td>
+            </tr>
+			<tr>
+	            <td>Ctrl+Alt+S</td>
+                <td>Selects the Scatterplot tab (to display this scatterplot graphs).</td>
+            </tr>
+			<tr>
+                <td>Ctrl+Alt+H</td>
+                <td>Selects the &lsquo;Help&rsquo; button (to display this help text in a new tab or window in your browser).</td>
+			</tr>
+			<tr>
+                <td>Ctrl+Alt+G</td>
+                <td>Selects or deselects the display of the background grid in the graphs.</td>
+            </tr>
+			<tr>
+                <td>Ctrl+Alt+U</td>
+                <td>Selects or deselects the display of some shortcut reminders to the left of components.</td>
+            </tr>
+			<tr>
+                <td>Ctrl+Alt+1</td>
+                <td>Focuses on the left-hand drop-down selector to select the dataset for the left-hand column.</td>
+            </tr>
+			<tr>
+                <td>Ctrl+Alt+2</td>
+                <td>Focuses on the right-hand drop-down selector to select the dataset for the right-hand column.</td>
+            </tr>
+			<tr>
+                <td>Ctrl+Alt+3</td>
+                <td>Selects editing of the title of the left-hand dataset.</td>
+            </tr>
+			<tr>
+                <td>Ctrl+Alt+5</td>
+                <td>Selects editing of the title of the right-hand dataset.</td>
+            </tr>
+			<tr>
+                <td>Ctrl+Alt+6</td>
+                <td>Selects editing of the axis label of the left-hand dataset.</td>
+            </tr>
+			<tr>
+                <td>Ctrl+Alt+7</td>
+                <td>Selects editing of the axis label of the right-hand dataset.</td>
+            </tr>
+			<tr>
+                <td>Ctrl+Alt+8</td>
+                <td>Selects the left-hand data column (or the left-hand paste area, when displayed).</td>
+            </tr>
+			<tr>
+                <td>Ctrl+Alt+9</td>
+                <td>Selects the right-hand dataset column (or the right-hand paste area when displayed).</td>
+            </tr>
+			<tr>
+                <td>Ctrl+Alt+n</td>
+                <td>Focuses on the left-hand &lsquo;New&rsquo; button (or the left-hand &lsquo;OK&rsquo; button, when displayed).</td>
+            </tr>
+			<tr>
+                <td>Ctrl+Alt+w</td>
+                <td>Focuses on the right-hand &lsquo;New&rsquo; button (or the right-hand &lsquo;OK&rsquo; button, when displayed).</td>
+            </tr>
+			<tr>
+                <td>Ctrl+Alt+z</td>
+                <td>Focuses on the left-hand &lsquo;Copy dataset&rsquo; button.</td>
+            </tr>
+            <tr>
+	            <td>Ctrl+Alt+y</td>
+                <td>Focuses on the right-hand &lsquo;Copy dataset&rsquo; button.</td>
+            </tr>
+            <tr>
+    	        <td>Ctrl+Alt+p</td>
+                <td>Focuses on the left-hand &lsquo;Paste to dataset&rsquo; button.</td>
+            </tr>
+            <tr>
+        	    <td>Ctrl+Alt+e</td>
+                <td>Focuses on the right-hand &lsquo;Paste to dataset&rsquo; button.</td>
+            </tr>
+            <tr>
+            	<td>Ctrl+Alt+l</td>
+                <td>Focuses on the left-hand &lsquo;Delete dataset&rsquo; button.</td>
+            </tr>
+            <tr>
+	            <td>Ctrl+Alt+t</td>
+                <td>Focuses on the right-hand &lsquo;Delete dataset&rsquo; button.</td>
+            </tr>
+            <tr>
+    	        <td>Ctrl+Alt+0 </td>
+                <td>Focuses on the scatterplot graph, when it is displayed.</td>
+            </tr>
+		</table>
+        <p>
+	  		<a href="#Contents">Back to Contents</a>
+        </p>
+</div>
+
+	<div class="help">
+		<h3><a name="ChoosingDataset" id="ChoosingDataset">4. Choosing a dataset</a></h3>
+		<p>
+			You can choose a dataset by using one of the drop-down selectors at the top of the left-hand panel. Alternatively you can 
+            enter data into a data column. 
+	  </p>
+		<p>
+        	You can show dotplots, boxplots, histograms or a scatterplot of the data by clicking on the appropriate tab at the top of 
+            the application (or using keyboard control as described in Section 2).   The plots and all displayed numbers, such as the 
+            statistical summaries, are automatically updated when the data are changed.
+	  </p>
+        <p>
+        	To choose a dataset, click on the drop-down selector and then click on the desired dataset name. The preloaded datasets 
+            provided for the course are read-only, which means that you cannot alter them. These datasets are designated by a hash 
+            symbol (#) in front of the dataset name. 
+        </p>
+	  <a href="#Contents">Back to Contents</a>
+	</div>
+
+	<div class="help">
+		<h3><a name="ChangingUnits" id="ChangingUnits">5. Changing an axis label</a></h3>
+		<p>
+			The axis label for a selected dataset is displayed on the graph on the appropriate axis. You cannot change the axis label 
+            for a preloaded dataset.  
+  	  </p>
+		<p>
+			To change an axis label for your own dataset, change the text in the axis label edit box, which is underneath the blue or 
+            green dataset name. Then press the Enter key or change focus to another component. 
+	  </p>
+		<a href="#Contents">Back to Contents</a>
+	</div>
+
+	<div class="help">
+		<h3><a name="New" id="New">6. Creating a new dataset</a></h3>
+		<p>
+			To create your own dataset, click on the &lsquo;New&rsquo; button, type a name for your dataset into the edit box under the drop-down 
+            selector, and press the Enter key. Type an axis label into the axis label box if you wish, then click on the appropriate 
+            data column and type in your data values.
+   	  </p>
+		<p>
+			You can edit a preloaded dataset by changing its name, which will copy the dataset and give it the new name that you 
+            specify. To do this, click on the blue or green dataset name under the drop-down selector and an edit box will appear. 
+            Type in a new name (for a preloaded dataset you could just remove the hash character and space at the beginning) and then 
+            press the Enter key and the dataset will be copied, with the new name. You cannot choose a name that is already present 
+            in the list. For clarity, try to keep your dataset names to at most 14 characters. If you change your mind while editing, 
+            press the Esc key. New datasets are saved automatically and you can use them the next time you use the application. 
+  	  </p>
+		<a href="#Contents">Back to Contents</a>
+	</div>
+
+	<div class="help">
+		<h3><a name="Copying" id="Copying">7. Copying a dataset to the clipboard</a></h3>
+		<p>
+			To copy a dataset to the clipboard, make sure that it is displayed in one of the columns and then press the appropriate 
+            &lsquo;Copy dataset&rsquo; button. This allows you to paste the data into a variety of applications, such as a text editor, word 
+            processor, spreadsheet or mathematics application. It also allows you to paste the data into a new dataset in Dataplotter. 
+	  </p>
+		<a href="#Contents">Back to Contents</a>
+	</div>
+
+	<div class="help">
+		<h3><a name="Pasting" id="Pasting">8. Pasting to a dataset from the clipboard</a></h3>
+		<p>
+			Due to the online security protection of the application, pasting data to a dataset is a two-step process. First you have 
+            to click the appropriate &lsquo;Paste to dataset&rsquo; button.  This replaces the data column with a text area containing the current 
+            data. 
+	  </p>
+		<p>
+			You can then edit the data and insert the text in the clipboard at the cursor point. For example, you can delete all the 
+            current data (if there are any) and paste the new data in their place, or click at the end of the data and paste the new 
+            data there, and so on. 
+	  </p>
+		<p>
+			You can insert data from the clipboard by right-clicking on the paste area and choosing Paste from the pop-up menu. 
+            Alternatively you can press Ctrl+V on a PC or Cmd+V on an Apple Macintosh computer.
+		</p>
+		<p>           
+			The data must be numeric and separated by new lines. For example, if you copy a list of data from a text editor with all 
+            the data on separate lines, or copy a column from a spreadsheet, then it should be accepted. 
+		</p>
+		<p>
+			When you have finished, click on the &lsquo;OK&rsquo; button and all valid data will be entered and the data column will replace the 
+            text area. If you change your mind before pressing the &lsquo;OK&rsquo; button, then press the &lsquo;Cancel&rsquo; button. 
+        </p>
+
+  	  <a href="#Contents">Back to Contents</a>
+	</div>
+
+	<div class="help">
+		<h3><a name="Deleting" id="Deleting">9. Deleting a dataset</a></h3>
+		<p>
+			To delete a dataset that you have created, select the dataset from the drop-down list and press the appropriate &lsquo;Delete&rsquo; 
+            button. The dataset will be deleted from the drop-down list and also from the saved memory, so it will no longer be 
+            available. The application will switch to the previous dataset in the list.  You cannot delete preloaded datasets.
+	  </p>
+		<p>
+			The &lsquo;Clear&rsquo; button clears all the data from a user-created dataset without deleting the dataset. 
+	  </p>
+		<p><a href="#Contents">Back to Contents</a>	</p>
+	</div>
+
+	<div class="help">
+		<h3><a name="DeleteAll" id="DeleteAll">10. Deleting all datasets</a></h3>
+		<p>
+			To delete all the datasets that you have created and leave only the preloaded datasets, press the &lsquo;Delete all saved data&rsquo; 
+            button on the Options page. This will remove all the datasets that you have created from the drop-down list and from the 
+            saved memory, and put the application into the same condition as when it was first used. 
+  	  </p>
+		<a href="#Contents">Back to Contents</a>
+	</div>
+
+	<div class="help">
+		<h3><a name="DotPlot" id="DotPlot">11. Dotplots</a></h3>
+		<p>
+			Click the Dotplot tab (or use the keyboard alternative) to display dotplots for both datasets. If a dataset contains no 
+            data then nothing is plotted.
+	  </p>
+		<p>
+			A dotplot shows each data value as a dot above the appropriate value on the axis scale. 
+	  </p>
+		<p>
+			The axis scales for both dotplots are the same, so that the datasets can be compared easily. 
+	  </p>
+		<p>
+			The statistical summaries of the data are shown to the right of the graphs. 
+	  </p>
+		<a href="#Contents">Back to Contents</a>
+	</div>
+
+	<div class="help">
+		<h3><a name="BoxPlot" id="BoxPlot">12. Boxplots</a></h3>
+		<p>
+			Click the Boxplot tab (or use the keyboard alternative) to display boxplots for both datasets. If a dataset contains no 
+            data then nothing is plotted.
+	  </p>
+		<p>
+			A boxplot allows you to easily see the minimum value of the data (the left-most vertical line), the lower quartile (the 
+            left-hand vertical side of the box), the median (the vertical line within the box), the upper quartile (the right-hand 
+            vertical side of the box) and the maximum (the right-most vertical line). 
+	  </p>
+		<p>
+			The axis scales for both boxplots are the same, so that the datasets can be compared easily. 
+	  </p>
+		<p>
+			The statistical summaries of the data are shown to the right of the graphs. 
+	  </p>
+		<a href="#Contents">Back to Contents</a>
+	</div>
+
+	<div class="help">
+		<h3><a name="Histogram" id="Histogram">13. Histograms</a></h3>
+		<p>
+			Click the Histogram tab (or use the keyboard alternative) to display histograms for both datasets. 
+	  </p>
+		<p>
+			A histogram shows the numbers of data values in different intervals. The intervals are adjacent and 
+            non-overlapping, and on Dataplotter they are of equal width. The number of data values in each 
+            interval is shown by a vertical bar. 
+	  </p>
+		<p>
+			The &lsquo;Start value&rsquo; is the lower boundary of the first bar. The &lsquo;Interval&rsquo; is the width of each bar. 
+            You can choose to have these values chosen automatically, by ticking the Auto checkbox. If you untick 
+            the Auto checkbox, then you can enter your own start and interval width values. 
+	  </p>
+		<p>
+			When the start value and interval width are set to Auto for both histograms, the horizontal axis scales for 
+            both plots are the same, so that the datasets can be compared easily. 
+  	  </p>
+		<p>
+			The statistical summaries of the data are shown to the right of the graphs. 
+	  </p>
+		<a href="#Contents">Back to Contents</a>
+	</div>
+
+	<div class="help">
+		<h3><a name="Summaries" id="Summaries">14. Statistical summaries</a></h3>
+		<p>
+			On the right of the graphs on the Dotplot, Boxplot and Histogram pages there is a section that shows the statistical 
+            summaries of the datasets. At least two data values are needed before the summaries are displayed. The number of 
+            significant figures in the summary values is one more than the largest number of significant figures used in the 
+            dataset. 
+ 	  </p>
+		<p>
+			The statistical summaries are: 			
+      </p>
+		<ul>
+          <li>
+                Min: minimum value 			
+          </li>
+            <li>
+                Q1: lower quartile 			                
+          </li>
+            <li>
+                Median: median 			
+          </li>
+            <li>
+                Q3: upper quartile 				
+          </li>
+            <li>
+                Max: maximum value 			
+          </li>
+            <li>
+                Mean: mean 				
+          </li>
+            <li>
+                SD: standard deviation 				
+          </li>
+            <li>
+                IQR: interquartile range i.e. upper quartile &ndash; lower quartile 				
+          </li>
+            <li>
+                Range: range of data values i.e. maximum &ndash; minimum 			
+          </li>
+            <li>
+                n: number of data values in the dataset 			
+          </li>
+		</ul>
+		<a href="#Contents">Back to Contents</a>
+	</div>
+
+	<div class="help">
+		<h3><a name="Scatterplot" id="Scatterplot">15. Scatterplots</a></h3>
+		<p>
+        	Click the Scatterplot tab (or the keyboard alternative) to display a scatterplot of the datasets. The left- and right-hand 
+            datasets are used for the x- and y-coordinates, respectively. A point is plotted for each row that contains numbers in 
+            both datasets. 
+      </p>
+		<p>		  
+            It is appropriate to display a scatterplot only if the selected datasets contain paired data.
+      </p>
+		<p>		  
+        	If you tick the Regression checkbox, then a regression line calculated using the least squares method is shown on the graph. 
+            The equation of the line and the correlation coefficient of the data are shown above the graph. The numbers in the regression 
+            equation are displayed to 5 significant figures and the correlation coefficient is displayed to 5 decimal places. To remove 
+            the regression line, untick the checkbox. 
+      </p>
+		<p>		  
+           You can focus on the scatterplot by moving the mouse pointer over it or by using the keyboard shortcut Crtl+Alt+0 (zero). 
+           When the scatterplot has focus, the keyboard controls for it become available. 
+      </p>
+		<a href="#Contents">Back to Contents</a>
+</div>
+
+
+	<div class="help">
+		<h3><a name="View" id="View">16. Choosing the viewable area of the scatterplot</a></h3>
+		<p>
+        	You can change the viewable area of the scatterplot in any of the following ways.
+      </p>
+        <ul>
+            <li>
+            	Type new  numbers in the x min, x max, y min and y max boxes at the bottom right of the right-hand  panel, and press 
+            	the Enter key or select another component. 
+            </li>
+            <li>
+            	Use the arrow,  zoom and &lsquo;Autoscale&rsquo; buttons under the graph. 
+            </li>
+            <li>
+            	Move the graph  with the mouse, by left-clicking on the graph and keeping the mouse button  pressed while you move the 
+            	mouse to drag the graph in the required direction.  Release the mouse button to leave the graph in place. 
+            </li>
+            <li>
+            	Zoom in and  out with the mouse, by clicking on the graph and rotating the mouse wheel.
+          </li>
+            <li>
+            	Move the graph  by using the keyboard. First, make sure that the graph has focus (indicated by a  yellow box). To do this, 
+	            you can move the mouse pointer over the graph, tab to  the graph or press Crtl+Alt+0.&nbsp; Then you  can move the graph 
+    	        slowly by holding down the Shift key and pressing the Home  and End keys for left and right, or the Page Up and Page Down 
+        	    keys for up and  down. You can move it faster by also holding down the Ctrl key. 
+            </li>
+            <li>
+            	Zoom in and  out by using the keyboard.&nbsp; To zoom in, make  sure that the graph has focus and press the Insert key 
+                or the + key. To zoom out,  press the Delete key or the - key. The + and - keys on the numeric keypad can  also be used. 
+            </li>
+        </ul>
+      <p>
+			If there are no points displayed on the scatterplot, this may be because there are no points within the viewable area. To 
+            display the points, click on the &lsquo;Autoscale&rsquo; button. This resets the viewable area of the graph to display all the points.         
+   	  </p>
+        <a href="#Contents">Back to Contents</a>
+	</div>
+
+
+	<div class="help">
+		<h3><a name="PlottingPoints" id="PlottingPoints">17. Plotting  and deleting scatterplot points</a></h3>
+  		<p>
+        	If you have two different datasets selected in the left and right columns, both of which are user-created, then points can be 
+            created, moved and deleted on the graph.  This allows you to experiment with made-up datasets.
+        </p>
+		<p>		  
+        	You can plot a point by entering its coordinates in the data columns. The cell number must be the same in both columns. You 
+            can delete a point by deleting its coordinates from the data columns.  You can also change points in the following ways.
+        </p>
+        <br />
+        <strong>Using the cursor boxes</strong>
+		<p>		  
+        	To plot a point, enter its x- and y-coordinates in the cursor boxes below the scatterplot, give the graph focus by pressing 
+            Ctrl+Alt+0, and then press the Space key.  To delete a point, enter its coordinates, give the graph focus and press the Space 
+            key.
+        </p>
+        <br />
+        <strong>Using the crosshair</strong>        
+		<p>		  
+        	When you move the mouse pointer over a scatterplot, it changes to a crosshair.
+        </p>
+		<p>		  
+        	You can plot a point by holding down the Shift key and clicking on the graph at the position where you want the point to be. 
+            The coordinates are entered into the dataset columns. 
+        </p>
+		<p>		  
+        	When you move the crosshair over a point, it is highlighted and its coordinates are displayed. If you hold down the Shift key 
+            and click on a point, then it is deleted and its coordinates are removed from the dataset columns. 
+      	</p>
+		<p>		  
+        	To drag a point to a new position, position the crosshair over the point so that it is highlighted. Then hold down the Shift 
+            key, click on the point and keep the left mouse button pressed while you drag the point to a new position. Release the mouse 
+            button at the new position. The dataset values are updated accordingly. 
+      	</p>
+		<p>		  
+        	You can move the crosshair by using the keyboard. First make sure that the graph has focus (indicated by a yellow box). Then 
+            you can move the crosshair slowly left and right by using the Home and End keys, or up and down by using the Page Up and Page 
+            Down keys. You can move the crosshair faster by also holding down the Ctrl key.  Alternatively, you can move the crosshair by 
+            switching on Num Lock on your keyboard and using the arrow keys on the numeric keypad.  
+      	</p>
+        <br />
+        <strong>Changing points can cause loss of data</strong>        
+		<p>		  
+        	The data are tidied up every time you use the cursor boxes or crosshair to plot, move or delete a point on the graph. This 
+            means that any non-numerical data are deleted, and all data values are moved up, if necessary, so that there are no blank 
+            cells amongst the data values. It also means that if the two datasets have different numbers of values, then the unpaired 
+            values are deleted. This can cause you to lose data from a dataset that you have created, so if you want to manipulate a 
+            dataset using the Scatterplot page then it is a good idea to make a copy of it first.  You can do this by changing its name 
+            (see Section 6).
+      	</p>
+	  <a href="#Contents">Back to Contents</a>
+	</div>
+
+	<div class="help">
+		<h3><a name="Properties" id="Properties">18. Options</a></h3>
+		<p>
+			The Options page provides two drop-down boxes to allow you to change the line thickness and the colours.  	  	
+        </p>
+	  	<ul>
+   	  	<li>
+            	The options &lsquo;Standard line thickness&rsquo;, &lsquo;Thicker lines&rsquo; and &lsquo;Thickest lines&rsquo; allow you to change the thickness of the 
+                lines displayed on the graph and the font and thickness of the scale and axis labels. 
+       	</li>
+		  	<li>
+            	The options &lsquo;Standard colours&rsquo;, &lsquo;Black on white&rsquo;, &lsquo;White on black&rsquo;, &lsquo;Yellow on black&rsquo; and &lsquo;Dark blue on light blue&rsquo; allow 
+                you to change the application's colours. 
+       	</li>
+	  	</ul>
+		<p>
+        	There are also checkboxes to allow you to select whether the graphs display grids and whether keyboard shortcut characters are 
+            displayed next to some components. These shortcut characters are used with Ctrl+Alt to focus on a component, as explained in 
+            Section 3. 
+      </p>
+	  	<p>
+			These settings are saved and remembered for when you next use the application.  
+	  </p>
+		<p><a href="#Contents">Back to Contents</a>	</p>
+	</div>
+	</body>
+</html>

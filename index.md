@@ -22,7 +22,7 @@ In Chrome or Edge(2019 Edition based on Chromium)
 5. Click Create
 ```
 
-### Support or Contact
+### Support
 
 If you are have trouble for whatever reason, let me know the problem here
 https://github.com/dbzocchi/OU_Plotters/issues
